@@ -16,6 +16,10 @@ body {
     height: 100%;
 }
 
+.disply-none {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: #333;

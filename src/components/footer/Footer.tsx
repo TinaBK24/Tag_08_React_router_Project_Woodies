@@ -1,8 +1,14 @@
+import { useLocation } from "react-router-dom";
 import "./Footer.css"
 
 const Footer = () => {
+
+    const location = useLocation();
+
+    const isHomeActive = location.pathname === "/";
+
     return (
-        <footer>
+        <footer className={isHomeActive ? "disply-none" : ""}>
             <div className="footer-content">
                 <div className="line"></div>
                 <img src="./img/Logo.png" alt="" />
