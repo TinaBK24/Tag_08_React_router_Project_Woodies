@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.home div p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3E3F43;
+}
+
+.home div h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #3E3F43;
+}
+
+.home img {
+    width: 50%;
+}

@@ -1,0 +1,11 @@
+.jenson-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+.jenson-content img {
+    width: 50%;
+}

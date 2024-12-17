@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4rem;
+}
+
+header img {
+    display: block;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}

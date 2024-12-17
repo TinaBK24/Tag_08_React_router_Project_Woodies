@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    padding: 50px 0 0 4rem;
+    background-color: #F1F1F1;
+    display: flex;
+    position: relative;
+}
+
+.footer-img {
+    width: 300px;
+}
+
+footer .line {
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-content img {
+    width: 200px;
+}
+
+footer a,
+footer p {
+    color: #8D8D8D;
+    font-size: 0.8rem;
+}
+
+footer p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}

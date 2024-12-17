@@ -1,0 +1,25 @@
+.products-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.products-content div {
+    padding: 20px;
+    position: relative;
+}
+
+.products-content p {
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.products-content button {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
