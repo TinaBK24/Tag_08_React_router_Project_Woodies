@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# 🪵 Projekt: Woodies – React Router Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Diese Webanwendung stellt eine fiktive Möbelmarke vor, inklusive Produktseiten, Informationen zur Marke und dynamischem Routing. Sie wurde im Rahmen einer Frontend-Ausbildung mit **React**, **TypeScript** und **Vite** umgesetzt.
 
-Currently, two official plugins are available:
+🔗 **Live-Demo**: [tinabk-project-react-woodies.netlify.app](https://tinabk-project-react-woodies.netlify.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Verwendete Technologien & Tools
 
-## Expanding the ESLint configuration
+- ⚛️ **React** – komponentenbasiertes JavaScript-Framework für die Benutzeroberfläche.
+- 🟦 **TypeScript** – typisierte Superset von JavaScript für bessere Codequalität.
+- ⚡ **Vite** – schneller Build- und Entwicklungsserver.
+- 🌐 **React Router DOM** – für clientseitiges Routing und Navigation.
+- 🎨 **CSS3** – für Layout, Responsive Design und Seitenstile.
+- 🗂️ **Komponentenstruktur** – Header, Footer, Layout & Pages.
+- 🖋️ **Google Fonts** – modernes und einheitliches Schriftbild.
+- 🧠 **Modulare Seitenstruktur** – jede Seite besitzt ein eigenes Stylesheet.
+- 🛠️ **VS Code**, **Git** & **GitHub** – als Entwicklungsumgebung und zur Versionskontrolle.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔧 Funktionen
 
-- Configure the top-level `parserOptions` property like this:
+### 🏠 Startseite
+- Begrüßung mit Titeltext, Bild und einem Handlungsaufruf.
+- Dynamischer Hintergrund des Headers nur auf dieser Seite.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### ℹ️ Über uns
+- Statische Seite mit Informationen über die Möbelmarke.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 🛒 Produktübersicht
+- Seite mit Produkten inklusive Bildern, Namen und einem Button zur Detailansicht.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### 📄 Produktdetailseite
+- Detailansicht für das Produkt „Jenson Chair“ mit Informationen und Foto.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### ❌ Fehlerseite (404)
+- Wird angezeigt, wenn eine nicht existierende Route eingegeben wird.
+
+### 🔗 Navigation & Layout
+- Navigationsmenü mit **NavLink**, das die aktuelle Seite markiert.
+- **Header** auf jeder Seite sichtbar.
+- **Footer** nur außerhalb der Startseite sichtbar.
+
+## Kontaktinformationen
+
+Falls Sie Fragen oder Vorschläge haben, können Sie mich kontaktieren:
+- **E-Mail**: barshchevskak@gmail.com
+- **GitHub**: [TinaBK24](https://github.com/TinaBK24)
+
+## 📸 Screenshots
+
+### 🔻 Startseite
+
+![Home](./public/img/ScreenshotHome.png)
+
+### 🔻 About-Seite
+
+![Home](./public/img/ScreenshotAbout.png)
+
+### 🔻 Produkteseite
+
+![Home](./public/img/ScreenshotProducts.png)
